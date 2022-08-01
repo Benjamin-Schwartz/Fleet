@@ -100,7 +100,6 @@ def main():
     df = pd.DataFrame(json_dict['activityResponseVO']['activityReport'])
     #Write the data to a csv
     df.to_csv("data_July.csv", mode = 'a', index = False, header= False)
-
     total_pages = (json_dict['activityResponseVO']['totalPages'])
     get_all_trips(total_pages)
 

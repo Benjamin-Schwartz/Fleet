@@ -9,7 +9,7 @@ from datetime import datetime
 
 def request_trips():
     
-   
+    
     #Provided URL for this call
     url = 'https://api.azuga.com/azuga-ws/v1/vehicle/view.json?'
 
